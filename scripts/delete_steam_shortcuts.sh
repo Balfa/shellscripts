@@ -7,6 +7,8 @@
 # Usage: Run this script in the directory where you want to clean up .url files.
 # E.g. to run on Desktop of current user:
 # cd ~/Desktop && bash delete_steam_shortcuts.sh
+# Or without having the script locally:
+# cd ~/Desktop && curl -s https://raw.githubusercontent.com/Balfa/shellscripts/main/scripts/delete_steam_shortcuts.sh | bash
 
 
 # Define the target patterns
